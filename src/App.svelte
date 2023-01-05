@@ -1,8 +1,9 @@
 <script lang="ts">
+  import ChatPage from "./pages/ChatPage.svelte";
 </script>
 
 <main>
-  fdfdfd
+  <ChatPage />
 </main>
 
 <style>
