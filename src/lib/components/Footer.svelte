@@ -9,7 +9,6 @@
     display: flex;
     justify-content: space-between;
     background: #fff;
-    width: 100%;
     border-radius: 20px;
     margin-bottom: 20px;
     padding: 20px 25px;
@@ -19,7 +18,7 @@
       outline: none;
       font-family: 'Roboto-Regular';
       font-size: 17px;
-      flex: .8;
+      flex: .9;
 
       &::placeholder {
         color: #aeaeae;
