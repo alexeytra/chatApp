@@ -1,0 +1,15 @@
+type Message {
+    id: Int!,
+    userId: Int!,
+    content: String!
+}
+
+type Chat {
+    id: Int!,
+    userId: Int!,
+    messages: [Message]
+}
+
+type Query {
+    chatMessages(chatId: Int!): [Chat]
+}
